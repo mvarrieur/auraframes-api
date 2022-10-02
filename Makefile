@@ -6,7 +6,7 @@ go:
 
 typescript:
 	swagger-cli bundle api/aura.yaml --outfile bundle.yaml --type yaml && \
-		npx @openapitools/openapi-generator-cli generate -g typescript -o typescript -i bundle.yaml -p packageName=auraframes \
+		npx @openapitools/openapi-generator-cli generate -g typescript -o typescript -i bundle.yaml -p npmName=@mvarrieur/auraframes-api \
 		--git-user-id mvarrieur --git-repo-id=auraframes-api/typescript
 
 .PHONY: clean

@@ -26,3 +26,5 @@ _testmain.go
 bundle.yaml
 node_modules
 yarn-error.log
+
+typescript/
