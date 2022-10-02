@@ -39,7 +39,7 @@ properties:
   uploaded_at:
     type: string
   good_resolution:
-    type: bool
+    type: boolean
   source_id:
     type: string
   duplicate_of_id:
@@ -55,7 +55,7 @@ properties:
   glaciered_at:
     type: string
   unglacierable:
-    type: bool
+    type: boolean
   duration:
     type: string
   live_photo_off:
@@ -65,7 +65,7 @@ properties:
   created_at_on_client:
     type: string
   selected:
-    type: bool
+    type: boolean
   file_name:
     type: string
   raw_file_name:
@@ -81,13 +81,13 @@ properties:
   horizontal_accuracy:
     type: string
   favorite:
-    type: bool
+    type: boolean
   orientation:
     type: string
   hdr:
-    type: bool
+    type: boolean
   panorama:
-    type: bool
+    type: boolean
   is_live:
     type: string
   burst_id:
