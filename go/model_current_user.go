@@ -30,7 +30,7 @@ type CurrentUser struct {
 	CurrentSourceId *string `json:"current_source_id,omitempty"`
 	EligibleForAppReviewPrompt *bool `json:"eligible_for_app_review_prompt,omitempty"`
 	Email *string `json:"email,omitempty"`
-	Features *[]Features `json:"features,omitempty"`
+	Features []Features `json:"features,omitempty"`
 	GooglePhotosDisabled *string `json:"google_photos_disabled,omitempty"`
 	HasAccessToNewGooglePhotos *bool `json:"has_access_to_new_google_photos,omitempty"`
 	HasFrame *bool `json:"has_frame,omitempty"`
@@ -499,12 +499,12 @@ func (o *CurrentUser) GetFeatures() []Features {
 		var ret []Features
 		return ret
 	}
-	return *o.Features
+	return o.Features
 }
 
 // GetFeaturesOk returns a tuple with the Features field value if set, nil otherwise
 // and a boolean to check if the value has been set.
-func (o *CurrentUser) GetFeaturesOk() (*[]Features, bool) {
+func (o *CurrentUser) GetFeaturesOk() ([]Features, bool) {
 	if o == nil || o.Features == nil {
 		return nil, false
 	}
@@ -522,7 +522,7 @@ func (o *CurrentUser) HasFeatures() bool {
 
 // SetFeatures gets a reference to the given []Features and assigns it to the Features field.
 func (o *CurrentUser) SetFeatures(v []Features) {
-	o.Features = &v
+	o.Features = v
 }
 
 // GetGooglePhotosDisabled returns the GooglePhotosDisabled field value if set, zero value otherwise.
