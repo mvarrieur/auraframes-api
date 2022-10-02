@@ -1,0 +1,23 @@
+{
+  "name": "auraframes-api",
+  "version": "1.0.0",
+  "description": "This project attempts to map the [Aura Frames](https://auraframes.com) REST API in use by the iPhone application",
+  "main": "undefined",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mvarrieur/auraframes-api.git"
+  },
+  "author": "Michael Varrieur",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/mvarrieur/auraframes-api/issues"
+  },
+  "homepage": "https://github.com/mvarrieur/auraframes-api#readme",
+  "devDependencies": {
+    "@openapitools/openapi-generator-cli": "^2.5.2",
+    "swagger-cli": "^4.0.4"
+  }
+}

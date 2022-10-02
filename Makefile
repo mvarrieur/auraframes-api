@@ -1,8 +1,14 @@
 .PHONY: all
-all:
+go:
 	swagger-cli bundle api/aura.yaml --outfile bundle.yaml --type yaml && \
-	openapi-generator generate -g go -o go -i bundle.yaml -p packageName=auraframes --git-user-id bp1222 --git-repo-id=auraframes-api/go
+	npx @openapitools/openapi-generator-cli generate -g go -o go -i bundle.yaml -p packageName=auraframes
+	#  --git-user-id mvarrieur --git-repo-id=auraframes-api/go
+
+typescript:
+	swagger-cli bundle api/aura.yaml --outfile bundle.yaml --type yaml && \
+	npx @openapitools/openapi-generator-cli generate -g typescript -o typescript -i bundle.yaml -p packageName=auraframes
+	#  --git-user-id mvarrieur --git-repo-id=auraframes-api/typescript
 
 .PHONY: clean
 clean:
-	rm -fR go
+	rm -fR typescript

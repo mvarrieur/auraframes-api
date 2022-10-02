@@ -24,3 +24,5 @@ _testmain.go
 *.prof
 
 bundle.yaml
+node_modules
+yarn-error.log
