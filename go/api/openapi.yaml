@@ -93,25 +93,25 @@ components:
         portrait_url: portrait_url
         portrait_rect: portrait_rect
         landscape_url: landscape_url
-        selected: ""
+        selected: true
         height: height
         user_landscape_rect: user_landscape_rect
-        unglacierable: ""
+        unglacierable: true
         video_clipped_by_user_at: video_clipped_by_user_at
         location_name: location_name
         data_uti: data_uti
         glaciered_at: glaciered_at
-        panorama: ""
+        panorama: true
         user_id: user_id
         uploaded_at: uploaded_at
         taken_at: taken_at
         auto_landscape_16_10_rect: auto_landscape_16_10_rect
-        favorite: ""
+        favorite: true
         upload_priority: upload_priority
         landscape_rect: landscape_rect
         duration_unclipped: duration_unclipped
         horizontal_accuracy: horizontal_accuracy
-        good_resolution: ""
+        good_resolution: true
         thumbnail_url: thumbnail_url
         auto_portrait_4_5_rect: auto_portrait_4_5_rect
         duration: duration
@@ -131,7 +131,7 @@ components:
         video_clip_excludes_audio: video_clip_excludes_audio
         duplicate_of_id: duplicate_of_id
         portrait_4_5_url: portrait_4_5_url
-        hdr: ""
+        hdr: true
         created_at_on_client: created_at_on_client
         video_file_name: video_file_name
         width: width
@@ -191,7 +191,7 @@ components:
         uploaded_at:
           type: string
         good_resolution:
-          type: bool
+          type: boolean
         source_id:
           type: string
         duplicate_of_id:
@@ -207,7 +207,7 @@ components:
         glaciered_at:
           type: string
         unglacierable:
-          type: bool
+          type: boolean
         duration:
           type: string
         live_photo_off:
@@ -217,7 +217,7 @@ components:
         created_at_on_client:
           type: string
         selected:
-          type: bool
+          type: boolean
         file_name:
           type: string
         raw_file_name:
@@ -233,13 +233,13 @@ components:
         horizontal_accuracy:
           type: string
         favorite:
-          type: bool
+          type: boolean
         orientation:
           type: string
         hdr:
-          type: bool
+          type: boolean
         panorama:
-          type: bool
+          type: boolean
         is_live:
           type: string
         burst_id:
@@ -455,25 +455,25 @@ components:
           portrait_url: portrait_url
           portrait_rect: portrait_rect
           landscape_url: landscape_url
-          selected: ""
+          selected: true
           height: height
           user_landscape_rect: user_landscape_rect
-          unglacierable: ""
+          unglacierable: true
           video_clipped_by_user_at: video_clipped_by_user_at
           location_name: location_name
           data_uti: data_uti
           glaciered_at: glaciered_at
-          panorama: ""
+          panorama: true
           user_id: user_id
           uploaded_at: uploaded_at
           taken_at: taken_at
           auto_landscape_16_10_rect: auto_landscape_16_10_rect
-          favorite: ""
+          favorite: true
           upload_priority: upload_priority
           landscape_rect: landscape_rect
           duration_unclipped: duration_unclipped
           horizontal_accuracy: horizontal_accuracy
-          good_resolution: ""
+          good_resolution: true
           thumbnail_url: thumbnail_url
           auto_portrait_4_5_rect: auto_portrait_4_5_rect
           duration: duration
@@ -493,7 +493,7 @@ components:
           video_clip_excludes_audio: video_clip_excludes_audio
           duplicate_of_id: duplicate_of_id
           portrait_4_5_url: portrait_4_5_url
-          hdr: ""
+          hdr: true
           created_at_on_client: created_at_on_client
           video_file_name: video_file_name
           width: width
@@ -526,25 +526,25 @@ components:
           portrait_url: portrait_url
           portrait_rect: portrait_rect
           landscape_url: landscape_url
-          selected: ""
+          selected: true
           height: height
           user_landscape_rect: user_landscape_rect
-          unglacierable: ""
+          unglacierable: true
           video_clipped_by_user_at: video_clipped_by_user_at
           location_name: location_name
           data_uti: data_uti
           glaciered_at: glaciered_at
-          panorama: ""
+          panorama: true
           user_id: user_id
           uploaded_at: uploaded_at
           taken_at: taken_at
           auto_landscape_16_10_rect: auto_landscape_16_10_rect
-          favorite: ""
+          favorite: true
           upload_priority: upload_priority
           landscape_rect: landscape_rect
           duration_unclipped: duration_unclipped
           horizontal_accuracy: horizontal_accuracy
-          good_resolution: ""
+          good_resolution: true
           thumbnail_url: thumbnail_url
           auto_portrait_4_5_rect: auto_portrait_4_5_rect
           duration: duration
@@ -564,7 +564,7 @@ components:
           video_clip_excludes_audio: video_clip_excludes_audio
           duplicate_of_id: duplicate_of_id
           portrait_4_5_url: portrait_4_5_url
-          hdr: ""
+          hdr: true
           created_at_on_client: created_at_on_client
           video_file_name: video_file_name
           width: width
@@ -660,25 +660,25 @@ components:
           portrait_url: portrait_url
           portrait_rect: portrait_rect
           landscape_url: landscape_url
-          selected: ""
+          selected: true
           height: height
           user_landscape_rect: user_landscape_rect
-          unglacierable: ""
+          unglacierable: true
           video_clipped_by_user_at: video_clipped_by_user_at
           location_name: location_name
           data_uti: data_uti
           glaciered_at: glaciered_at
-          panorama: ""
+          panorama: true
           user_id: user_id
           uploaded_at: uploaded_at
           taken_at: taken_at
           auto_landscape_16_10_rect: auto_landscape_16_10_rect
-          favorite: ""
+          favorite: true
           upload_priority: upload_priority
           landscape_rect: landscape_rect
           duration_unclipped: duration_unclipped
           horizontal_accuracy: horizontal_accuracy
-          good_resolution: ""
+          good_resolution: true
           thumbnail_url: thumbnail_url
           auto_portrait_4_5_rect: auto_portrait_4_5_rect
           duration: duration
@@ -698,7 +698,7 @@ components:
           video_clip_excludes_audio: video_clip_excludes_audio
           duplicate_of_id: duplicate_of_id
           portrait_4_5_url: portrait_4_5_url
-          hdr: ""
+          hdr: true
           created_at_on_client: created_at_on_client
           video_file_name: video_file_name
           width: width
@@ -731,25 +731,25 @@ components:
           portrait_url: portrait_url
           portrait_rect: portrait_rect
           landscape_url: landscape_url
-          selected: ""
+          selected: true
           height: height
           user_landscape_rect: user_landscape_rect
-          unglacierable: ""
+          unglacierable: true
           video_clipped_by_user_at: video_clipped_by_user_at
           location_name: location_name
           data_uti: data_uti
           glaciered_at: glaciered_at
-          panorama: ""
+          panorama: true
           user_id: user_id
           uploaded_at: uploaded_at
           taken_at: taken_at
           auto_landscape_16_10_rect: auto_landscape_16_10_rect
-          favorite: ""
+          favorite: true
           upload_priority: upload_priority
           landscape_rect: landscape_rect
           duration_unclipped: duration_unclipped
           horizontal_accuracy: horizontal_accuracy
-          good_resolution: ""
+          good_resolution: true
           thumbnail_url: thumbnail_url
           auto_portrait_4_5_rect: auto_portrait_4_5_rect
           duration: duration
@@ -769,7 +769,7 @@ components:
           video_clip_excludes_audio: video_clip_excludes_audio
           duplicate_of_id: duplicate_of_id
           portrait_4_5_url: portrait_4_5_url
-          hdr: ""
+          hdr: true
           created_at_on_client: created_at_on_client
           video_file_name: video_file_name
           width: width
@@ -826,25 +826,25 @@ components:
             portrait_url: portrait_url
             portrait_rect: portrait_rect
             landscape_url: landscape_url
-            selected: ""
+            selected: true
             height: height
             user_landscape_rect: user_landscape_rect
-            unglacierable: ""
+            unglacierable: true
             video_clipped_by_user_at: video_clipped_by_user_at
             location_name: location_name
             data_uti: data_uti
             glaciered_at: glaciered_at
-            panorama: ""
+            panorama: true
             user_id: user_id
             uploaded_at: uploaded_at
             taken_at: taken_at
             auto_landscape_16_10_rect: auto_landscape_16_10_rect
-            favorite: ""
+            favorite: true
             upload_priority: upload_priority
             landscape_rect: landscape_rect
             duration_unclipped: duration_unclipped
             horizontal_accuracy: horizontal_accuracy
-            good_resolution: ""
+            good_resolution: true
             thumbnail_url: thumbnail_url
             auto_portrait_4_5_rect: auto_portrait_4_5_rect
             duration: duration
@@ -864,7 +864,7 @@ components:
             video_clip_excludes_audio: video_clip_excludes_audio
             duplicate_of_id: duplicate_of_id
             portrait_4_5_url: portrait_4_5_url
-            hdr: ""
+            hdr: true
             created_at_on_client: created_at_on_client
             video_file_name: video_file_name
             width: width
@@ -897,25 +897,25 @@ components:
             portrait_url: portrait_url
             portrait_rect: portrait_rect
             landscape_url: landscape_url
-            selected: ""
+            selected: true
             height: height
             user_landscape_rect: user_landscape_rect
-            unglacierable: ""
+            unglacierable: true
             video_clipped_by_user_at: video_clipped_by_user_at
             location_name: location_name
             data_uti: data_uti
             glaciered_at: glaciered_at
-            panorama: ""
+            panorama: true
             user_id: user_id
             uploaded_at: uploaded_at
             taken_at: taken_at
             auto_landscape_16_10_rect: auto_landscape_16_10_rect
-            favorite: ""
+            favorite: true
             upload_priority: upload_priority
             landscape_rect: landscape_rect
             duration_unclipped: duration_unclipped
             horizontal_accuracy: horizontal_accuracy
-            good_resolution: ""
+            good_resolution: true
             thumbnail_url: thumbnail_url
             auto_portrait_4_5_rect: auto_portrait_4_5_rect
             duration: duration
@@ -935,7 +935,7 @@ components:
             video_clip_excludes_audio: video_clip_excludes_audio
             duplicate_of_id: duplicate_of_id
             portrait_4_5_url: portrait_4_5_url
-            hdr: ""
+            hdr: true
             created_at_on_client: created_at_on_client
             video_file_name: video_file_name
             width: width
@@ -982,25 +982,25 @@ components:
             portrait_url: portrait_url
             portrait_rect: portrait_rect
             landscape_url: landscape_url
-            selected: ""
+            selected: true
             height: height
             user_landscape_rect: user_landscape_rect
-            unglacierable: ""
+            unglacierable: true
             video_clipped_by_user_at: video_clipped_by_user_at
             location_name: location_name
             data_uti: data_uti
             glaciered_at: glaciered_at
-            panorama: ""
+            panorama: true
             user_id: user_id
             uploaded_at: uploaded_at
             taken_at: taken_at
             auto_landscape_16_10_rect: auto_landscape_16_10_rect
-            favorite: ""
+            favorite: true
             upload_priority: upload_priority
             landscape_rect: landscape_rect
             duration_unclipped: duration_unclipped
             horizontal_accuracy: horizontal_accuracy
-            good_resolution: ""
+            good_resolution: true
             thumbnail_url: thumbnail_url
             auto_portrait_4_5_rect: auto_portrait_4_5_rect
             duration: duration
@@ -1020,7 +1020,7 @@ components:
             video_clip_excludes_audio: video_clip_excludes_audio
             duplicate_of_id: duplicate_of_id
             portrait_4_5_url: portrait_4_5_url
-            hdr: ""
+            hdr: true
             created_at_on_client: created_at_on_client
             video_file_name: video_file_name
             width: width
@@ -1328,25 +1328,25 @@ components:
             portrait_url: portrait_url
             portrait_rect: portrait_rect
             landscape_url: landscape_url
-            selected: ""
+            selected: true
             height: height
             user_landscape_rect: user_landscape_rect
-            unglacierable: ""
+            unglacierable: true
             video_clipped_by_user_at: video_clipped_by_user_at
             location_name: location_name
             data_uti: data_uti
             glaciered_at: glaciered_at
-            panorama: ""
+            panorama: true
             user_id: user_id
             uploaded_at: uploaded_at
             taken_at: taken_at
             auto_landscape_16_10_rect: auto_landscape_16_10_rect
-            favorite: ""
+            favorite: true
             upload_priority: upload_priority
             landscape_rect: landscape_rect
             duration_unclipped: duration_unclipped
             horizontal_accuracy: horizontal_accuracy
-            good_resolution: ""
+            good_resolution: true
             thumbnail_url: thumbnail_url
             auto_portrait_4_5_rect: auto_portrait_4_5_rect
             duration: duration
@@ -1366,7 +1366,7 @@ components:
             video_clip_excludes_audio: video_clip_excludes_audio
             duplicate_of_id: duplicate_of_id
             portrait_4_5_url: portrait_4_5_url
-            hdr: ""
+            hdr: true
             created_at_on_client: created_at_on_client
             video_file_name: video_file_name
             width: width
@@ -1399,25 +1399,25 @@ components:
             portrait_url: portrait_url
             portrait_rect: portrait_rect
             landscape_url: landscape_url
-            selected: ""
+            selected: true
             height: height
             user_landscape_rect: user_landscape_rect
-            unglacierable: ""
+            unglacierable: true
             video_clipped_by_user_at: video_clipped_by_user_at
             location_name: location_name
             data_uti: data_uti
             glaciered_at: glaciered_at
-            panorama: ""
+            panorama: true
             user_id: user_id
             uploaded_at: uploaded_at
             taken_at: taken_at
             auto_landscape_16_10_rect: auto_landscape_16_10_rect
-            favorite: ""
+            favorite: true
             upload_priority: upload_priority
             landscape_rect: landscape_rect
             duration_unclipped: duration_unclipped
             horizontal_accuracy: horizontal_accuracy
-            good_resolution: ""
+            good_resolution: true
             thumbnail_url: thumbnail_url
             auto_portrait_4_5_rect: auto_portrait_4_5_rect
             duration: duration
@@ -1437,7 +1437,7 @@ components:
             video_clip_excludes_audio: video_clip_excludes_audio
             duplicate_of_id: duplicate_of_id
             portrait_4_5_url: portrait_4_5_url
-            hdr: ""
+            hdr: true
             created_at_on_client: created_at_on_client
             video_file_name: video_file_name
             width: width
@@ -1494,25 +1494,25 @@ components:
               portrait_url: portrait_url
               portrait_rect: portrait_rect
               landscape_url: landscape_url
-              selected: ""
+              selected: true
               height: height
               user_landscape_rect: user_landscape_rect
-              unglacierable: ""
+              unglacierable: true
               video_clipped_by_user_at: video_clipped_by_user_at
               location_name: location_name
               data_uti: data_uti
               glaciered_at: glaciered_at
-              panorama: ""
+              panorama: true
               user_id: user_id
               uploaded_at: uploaded_at
               taken_at: taken_at
               auto_landscape_16_10_rect: auto_landscape_16_10_rect
-              favorite: ""
+              favorite: true
               upload_priority: upload_priority
               landscape_rect: landscape_rect
               duration_unclipped: duration_unclipped
               horizontal_accuracy: horizontal_accuracy
-              good_resolution: ""
+              good_resolution: true
               thumbnail_url: thumbnail_url
               auto_portrait_4_5_rect: auto_portrait_4_5_rect
               duration: duration
@@ -1532,7 +1532,7 @@ components:
               video_clip_excludes_audio: video_clip_excludes_audio
               duplicate_of_id: duplicate_of_id
               portrait_4_5_url: portrait_4_5_url
-              hdr: ""
+              hdr: true
               created_at_on_client: created_at_on_client
               video_file_name: video_file_name
               width: width
@@ -1565,25 +1565,25 @@ components:
               portrait_url: portrait_url
               portrait_rect: portrait_rect
               landscape_url: landscape_url
-              selected: ""
+              selected: true
               height: height
               user_landscape_rect: user_landscape_rect
-              unglacierable: ""
+              unglacierable: true
               video_clipped_by_user_at: video_clipped_by_user_at
               location_name: location_name
               data_uti: data_uti
               glaciered_at: glaciered_at
-              panorama: ""
+              panorama: true
               user_id: user_id
               uploaded_at: uploaded_at
               taken_at: taken_at
               auto_landscape_16_10_rect: auto_landscape_16_10_rect
-              favorite: ""
+              favorite: true
               upload_priority: upload_priority
               landscape_rect: landscape_rect
               duration_unclipped: duration_unclipped
               horizontal_accuracy: horizontal_accuracy
-              good_resolution: ""
+              good_resolution: true
               thumbnail_url: thumbnail_url
               auto_portrait_4_5_rect: auto_portrait_4_5_rect
               duration: duration
@@ -1603,7 +1603,7 @@ components:
               video_clip_excludes_audio: video_clip_excludes_audio
               duplicate_of_id: duplicate_of_id
               portrait_4_5_url: portrait_4_5_url
-              hdr: ""
+              hdr: true
               created_at_on_client: created_at_on_client
               video_file_name: video_file_name
               width: width
@@ -1650,25 +1650,25 @@ components:
               portrait_url: portrait_url
               portrait_rect: portrait_rect
               landscape_url: landscape_url
-              selected: ""
+              selected: true
               height: height
               user_landscape_rect: user_landscape_rect
-              unglacierable: ""
+              unglacierable: true
               video_clipped_by_user_at: video_clipped_by_user_at
               location_name: location_name
               data_uti: data_uti
               glaciered_at: glaciered_at
-              panorama: ""
+              panorama: true
               user_id: user_id
               uploaded_at: uploaded_at
               taken_at: taken_at
               auto_landscape_16_10_rect: auto_landscape_16_10_rect
-              favorite: ""
+              favorite: true
               upload_priority: upload_priority
               landscape_rect: landscape_rect
               duration_unclipped: duration_unclipped
               horizontal_accuracy: horizontal_accuracy
-              good_resolution: ""
+              good_resolution: true
               thumbnail_url: thumbnail_url
               auto_portrait_4_5_rect: auto_portrait_4_5_rect
               duration: duration
@@ -1688,7 +1688,7 @@ components:
               video_clip_excludes_audio: video_clip_excludes_audio
               duplicate_of_id: duplicate_of_id
               portrait_4_5_url: portrait_4_5_url
-              hdr: ""
+              hdr: true
               created_at_on_client: created_at_on_client
               video_file_name: video_file_name
               width: width
@@ -1837,25 +1837,25 @@ components:
             portrait_url: portrait_url
             portrait_rect: portrait_rect
             landscape_url: landscape_url
-            selected: ""
+            selected: true
             height: height
             user_landscape_rect: user_landscape_rect
-            unglacierable: ""
+            unglacierable: true
             video_clipped_by_user_at: video_clipped_by_user_at
             location_name: location_name
             data_uti: data_uti
             glaciered_at: glaciered_at
-            panorama: ""
+            panorama: true
             user_id: user_id
             uploaded_at: uploaded_at
             taken_at: taken_at
             auto_landscape_16_10_rect: auto_landscape_16_10_rect
-            favorite: ""
+            favorite: true
             upload_priority: upload_priority
             landscape_rect: landscape_rect
             duration_unclipped: duration_unclipped
             horizontal_accuracy: horizontal_accuracy
-            good_resolution: ""
+            good_resolution: true
             thumbnail_url: thumbnail_url
             auto_portrait_4_5_rect: auto_portrait_4_5_rect
             duration: duration
@@ -1875,7 +1875,7 @@ components:
             video_clip_excludes_audio: video_clip_excludes_audio
             duplicate_of_id: duplicate_of_id
             portrait_4_5_url: portrait_4_5_url
-            hdr: ""
+            hdr: true
             created_at_on_client: created_at_on_client
             video_file_name: video_file_name
             width: width
@@ -1908,25 +1908,25 @@ components:
             portrait_url: portrait_url
             portrait_rect: portrait_rect
             landscape_url: landscape_url
-            selected: ""
+            selected: true
             height: height
             user_landscape_rect: user_landscape_rect
-            unglacierable: ""
+            unglacierable: true
             video_clipped_by_user_at: video_clipped_by_user_at
             location_name: location_name
             data_uti: data_uti
             glaciered_at: glaciered_at
-            panorama: ""
+            panorama: true
             user_id: user_id
             uploaded_at: uploaded_at
             taken_at: taken_at
             auto_landscape_16_10_rect: auto_landscape_16_10_rect
-            favorite: ""
+            favorite: true
             upload_priority: upload_priority
             landscape_rect: landscape_rect
             duration_unclipped: duration_unclipped
             horizontal_accuracy: horizontal_accuracy
-            good_resolution: ""
+            good_resolution: true
             thumbnail_url: thumbnail_url
             auto_portrait_4_5_rect: auto_portrait_4_5_rect
             duration: duration
@@ -1946,7 +1946,7 @@ components:
             video_clip_excludes_audio: video_clip_excludes_audio
             duplicate_of_id: duplicate_of_id
             portrait_4_5_url: portrait_4_5_url
-            hdr: ""
+            hdr: true
             created_at_on_client: created_at_on_client
             video_file_name: video_file_name
             width: width
@@ -2003,25 +2003,25 @@ components:
               portrait_url: portrait_url
               portrait_rect: portrait_rect
               landscape_url: landscape_url
-              selected: ""
+              selected: true
               height: height
               user_landscape_rect: user_landscape_rect
-              unglacierable: ""
+              unglacierable: true
               video_clipped_by_user_at: video_clipped_by_user_at
               location_name: location_name
               data_uti: data_uti
               glaciered_at: glaciered_at
-              panorama: ""
+              panorama: true
               user_id: user_id
               uploaded_at: uploaded_at
               taken_at: taken_at
               auto_landscape_16_10_rect: auto_landscape_16_10_rect
-              favorite: ""
+              favorite: true
               upload_priority: upload_priority
               landscape_rect: landscape_rect
               duration_unclipped: duration_unclipped
               horizontal_accuracy: horizontal_accuracy
-              good_resolution: ""
+              good_resolution: true
               thumbnail_url: thumbnail_url
               auto_portrait_4_5_rect: auto_portrait_4_5_rect
               duration: duration
@@ -2041,7 +2041,7 @@ components:
               video_clip_excludes_audio: video_clip_excludes_audio
               duplicate_of_id: duplicate_of_id
               portrait_4_5_url: portrait_4_5_url
-              hdr: ""
+              hdr: true
               created_at_on_client: created_at_on_client
               video_file_name: video_file_name
               width: width
@@ -2074,25 +2074,25 @@ components:
               portrait_url: portrait_url
               portrait_rect: portrait_rect
               landscape_url: landscape_url
-              selected: ""
+              selected: true
               height: height
               user_landscape_rect: user_landscape_rect
-              unglacierable: ""
+              unglacierable: true
               video_clipped_by_user_at: video_clipped_by_user_at
               location_name: location_name
               data_uti: data_uti
               glaciered_at: glaciered_at
-              panorama: ""
+              panorama: true
               user_id: user_id
               uploaded_at: uploaded_at
               taken_at: taken_at
               auto_landscape_16_10_rect: auto_landscape_16_10_rect
-              favorite: ""
+              favorite: true
               upload_priority: upload_priority
               landscape_rect: landscape_rect
               duration_unclipped: duration_unclipped
               horizontal_accuracy: horizontal_accuracy
-              good_resolution: ""
+              good_resolution: true
               thumbnail_url: thumbnail_url
               auto_portrait_4_5_rect: auto_portrait_4_5_rect
               duration: duration
@@ -2112,7 +2112,7 @@ components:
               video_clip_excludes_audio: video_clip_excludes_audio
               duplicate_of_id: duplicate_of_id
               portrait_4_5_url: portrait_4_5_url
-              hdr: ""
+              hdr: true
               created_at_on_client: created_at_on_client
               video_file_name: video_file_name
               width: width
@@ -2159,25 +2159,25 @@ components:
               portrait_url: portrait_url
               portrait_rect: portrait_rect
               landscape_url: landscape_url
-              selected: ""
+              selected: true
               height: height
               user_landscape_rect: user_landscape_rect
-              unglacierable: ""
+              unglacierable: true
               video_clipped_by_user_at: video_clipped_by_user_at
               location_name: location_name
               data_uti: data_uti
               glaciered_at: glaciered_at
-              panorama: ""
+              panorama: true
               user_id: user_id
               uploaded_at: uploaded_at
               taken_at: taken_at
               auto_landscape_16_10_rect: auto_landscape_16_10_rect
-              favorite: ""
+              favorite: true
               upload_priority: upload_priority
               landscape_rect: landscape_rect
               duration_unclipped: duration_unclipped
               horizontal_accuracy: horizontal_accuracy
-              good_resolution: ""
+              good_resolution: true
               thumbnail_url: thumbnail_url
               auto_portrait_4_5_rect: auto_portrait_4_5_rect
               duration: duration
@@ -2197,7 +2197,7 @@ components:
               video_clip_excludes_audio: video_clip_excludes_audio
               duplicate_of_id: duplicate_of_id
               portrait_4_5_url: portrait_4_5_url
-              hdr: ""
+              hdr: true
               created_at_on_client: created_at_on_client
               video_file_name: video_file_name
               width: width
@@ -2336,25 +2336,25 @@ components:
           portrait_url: portrait_url
           portrait_rect: portrait_rect
           landscape_url: landscape_url
-          selected: ""
+          selected: true
           height: height
           user_landscape_rect: user_landscape_rect
-          unglacierable: ""
+          unglacierable: true
           video_clipped_by_user_at: video_clipped_by_user_at
           location_name: location_name
           data_uti: data_uti
           glaciered_at: glaciered_at
-          panorama: ""
+          panorama: true
           user_id: user_id
           uploaded_at: uploaded_at
           taken_at: taken_at
           auto_landscape_16_10_rect: auto_landscape_16_10_rect
-          favorite: ""
+          favorite: true
           upload_priority: upload_priority
           landscape_rect: landscape_rect
           duration_unclipped: duration_unclipped
           horizontal_accuracy: horizontal_accuracy
-          good_resolution: ""
+          good_resolution: true
           thumbnail_url: thumbnail_url
           auto_portrait_4_5_rect: auto_portrait_4_5_rect
           duration: duration
@@ -2374,7 +2374,7 @@ components:
           video_clip_excludes_audio: video_clip_excludes_audio
           duplicate_of_id: duplicate_of_id
           portrait_4_5_url: portrait_4_5_url
-          hdr: ""
+          hdr: true
           created_at_on_client: created_at_on_client
           video_file_name: video_file_name
           width: width
