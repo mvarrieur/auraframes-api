@@ -13,9 +13,20 @@ jobs:
         with:
           node-version-file: '.nvmrc'
           cache: yarn
+          cache-dependency-path: |
+            yarn.lock
+      - name: Install dependencies
+        run: yarn --frozen-lockfile
+      - name: Build TS API
+        run: make clean-typescript && make typescript
+      - name: Install API dependencies
+        run: yarn
+        working-directory: ./typescript
+      - uses: actions/setup-node@v3
+        with:
+          node-version-file: '.nvmrc'
+          cache: yarn
           cache-dependency-path: yarn.lock
-      - run: yarn --frozen-lockfile
-      - run: make clean-typescript && make typescript
       - uses: JS-DevTools/npm-publish@v1
         with:
           token: ${{ secrets.NPM_TOKEN }}
