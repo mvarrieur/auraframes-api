@@ -22,12 +22,8 @@ jobs:
       - name: Install API dependencies
         run: yarn
         working-directory: ./typescript
-      - uses: actions/setup-node@v3
-        with:
-          node-version-file: '.nvmrc'
-          cache: yarn
-          cache-dependency-path: yarn.lock
       - uses: JS-DevTools/npm-publish@v1
         with:
           token: ${{ secrets.NPM_TOKEN }}
           package: ./typescript/package.json
+          access: public
